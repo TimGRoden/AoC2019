@@ -11,11 +11,11 @@ class Program {
     for (int i=0;i<t1.Length;i++) {
       datasafe[i] = int.Parse(t1[i]);
     }
-    Console.WriteLine("End of Program. Part 1 Result = "+runcode(datasafe)+".");
+    Console.WriteLine("End of Program. Part 1 Result = {0}.",runcode(datasafe));
     for (int i=0;i<t1.Length;i++) { //Remake datasafe before P2.
       datasafe[i] = int.Parse(t1[i]);
     }
-    Console.WriteLine("Noun/Verb Score = "+searcher(datasafe,19690720)+".");
+    Console.WriteLine("Noun/Verb Score = {0}.",searcher(datasafe,19690720));
   }
 
   public static int runcode (int[] data) {
