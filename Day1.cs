@@ -38,9 +38,7 @@ class Program {
     for (int i=0;i<datain.Length;i++) {
       datasafe[i]=int.Parse(datain[i]);
     }
-    Console.WriteLine("::Part 1 Solution::");
-    Console.WriteLine("Fuel needed: "+ Part1(datasafe)+".");
-    Console.WriteLine("::Part 2 Solution::");
-    Console.WriteLine("Fuel needed: "+ Part2(datasafe)+".");
+    Console.WriteLine("Part 1 Solution: Fuel needed: {0}.",Part1(datasafe));
+    Console.WriteLine("Part 2 Solution: Fuel needed: {0}.",Part2(datasafe));
   }
 }
